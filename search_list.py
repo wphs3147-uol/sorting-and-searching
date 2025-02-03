@@ -1,5 +1,5 @@
 def search_ordered_list(lst, target):
-    sorted_lst = get_ordered_list(lst)
+    sorted_lst = sorted(lst)
     low = 0
     high = len(sorted_lst) - 1
     while low <= high:
